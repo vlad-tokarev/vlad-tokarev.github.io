@@ -12,6 +12,8 @@ pygmentscodefencesguesssyntax = true
 
 copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
 
+publishDir = "./docs"
+
 [taxonomies]
     tag = "tags"
     category = "categories"
