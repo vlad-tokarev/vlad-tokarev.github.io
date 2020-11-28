@@ -23,7 +23,7 @@ publishDir = "./docs"
 # Use homepage.md instead of a list of posts
 homepage = false
 
-avatar = "./img/vitae.jpg"
+avatar = "/img/vitae.jpg"
 
 # Add meta keywords in head part (Site Keywords or Tags of Page)
 keywords = ["MLOps","Software Engineering","Kubeflow","SageMaker"]
