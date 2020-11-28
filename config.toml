@@ -1,0 +1,65 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Engineering Culture"
+theme = "vitae"
+
+paginate = 5
+enableRobotsTXT = true
+
+pygmentsstyle = "colorful"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+copyright = "© Copyright notice | [Vitae](https://github.com/dataCobra/hugo-vitae) theme for [Hugo](https://gohugo.io)"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params]
+# Use homepage.md instead of a list of posts
+homepage = false
+
+avatar = "/img/vitae.jpg"
+
+# Add meta keywords in head part (Site Keywords or Tags of Page)
+keywords = ["MLOps","Software Engineering","Kubeflow","SageMaker"]
+
+# Add meta description in head part
+description = "Brief notes on Software Engineering practices and technologies"
+
+pagetitle = "All about static site generation"
+
+subtitle = "Brief notes on Software Engineering practices and technologies"
+
+mainSections = ["posts"]
+
+# Navigation
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+
+# Social Menu
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/vlad-tokarev"
+
+[[params.social]]
+name = "Email"
+icon = "fas fa-envelope"
+cmd = "mailto:vlad.tokarev.94@gmail.com"
+
