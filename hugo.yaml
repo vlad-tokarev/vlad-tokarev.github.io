@@ -15,6 +15,15 @@ languages:
       homeInfoParams:
         Title: "Welcome"
         Content: "Personal space for thoughts, projects and experiments."
+      socialIcons:
+        - name: github
+          url: "https://github.com/vlad-tokarev"
+        - name: telegram
+          url: "https://t.me/tokarev_vlad"
+        - name: email
+          url: "mailto:vlad.tokarev.94@gmail.com"
+        - name: rss
+          url: "/index.xml"
     menu:
       main:
         - identifier: posts
@@ -42,6 +51,15 @@ languages:
       homeInfoParams:
         Title: "Добро пожаловать"
         Content: "Личное пространство для мыслей, проектов и экспериментов."
+      socialIcons:
+        - name: github
+          url: "https://github.com/vlad-tokarev"
+        - name: telegram
+          url: "https://t.me/tokarev_vlad"
+        - name: email
+          url: "mailto:vlad.tokarev.94@gmail.com"
+        - name: rss
+          url: "/ru/index.xml"
     menu:
       main:
         - identifier: posts
@@ -94,16 +112,6 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
-
-  socialIcons:
-    - name: github
-      url: "https://github.com/vlad-tokarev"
-    - name: telegram
-      url: "https://t.me/tokarev_vlad"
-    - name: email
-      url: "mailto:vlad.tokarev.94@gmail.com"
-    - name: rss
-      url: "/index.xml"
 
   assets:
     disableHLJS: true
