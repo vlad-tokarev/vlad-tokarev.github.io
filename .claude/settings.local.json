@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(hugo version:*)",
+      "Bash(hugo new:*)",
+      "Bash(git init:*)",
+      "Bash(git submodule add:*)",
+      "Bash(hugo:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,130 @@
+baseURL: "https://vtok.xyz/"
+title: vtok.xyz
+theme: ["PaperMod"]
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+
+languages:
+  en:
+    languageCode: en-gb
+    languageName: English
+    weight: 1
+    params:
+      description: "Personal website and blog"
+      homeInfoParams:
+        Title: "Welcome"
+        Content: "Personal space for thoughts, projects and experiments."
+    menu:
+      main:
+        - identifier: posts
+          name: Posts
+          url: /posts/
+          weight: 10
+        - identifier: archives
+          name: Archives
+          url: /archives/
+          weight: 20
+        - identifier: search
+          name: Search
+          url: /search/
+          weight: 30
+        - identifier: ru
+          name: "RU"
+          url: /ru/
+          weight: 100
+  ru:
+    languageCode: ru
+    languageName: Русский
+    weight: 2
+    params:
+      description: "Персональный сайт и блог"
+      homeInfoParams:
+        Title: "Добро пожаловать"
+        Content: "Личное пространство для мыслей, проектов и экспериментов."
+    menu:
+      main:
+        - identifier: posts
+          name: Записи
+          url: /ru/posts/
+          weight: 10
+        - identifier: archives
+          name: Архив
+          url: /ru/archives/
+          weight: 20
+        - identifier: search
+          name: Поиск
+          url: /ru/search/
+          weight: 30
+        - identifier: en
+          name: "EN"
+          url: /
+          weight: 100
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "Personal website and blog"
+  keywords: [Blog, Portfolio]
+  author: vtok
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/vlad-tokarev"
+    - name: telegram
+      url: "https://t.me/tokarev_vlad"
+    - name: email
+      url: "mailto:vlad.tokarev.94@gmail.com"
+    - name: rss
+      url: "/index.xml"
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
