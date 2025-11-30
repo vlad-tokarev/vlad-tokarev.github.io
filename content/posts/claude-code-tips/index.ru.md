@@ -2,7 +2,7 @@
 title: "Claude Code советы"
 date: 2025-11-30
 draft: false
-tags: ["AI", "Агенты", "Claude Code"]
+tags: ["AI"]
 categories: ["Разработка"]
 summary: "Практические советы по работе с Claude Code: управление контекстным окном и адаптация подхода в зависимости от сложности задачи."
 ---

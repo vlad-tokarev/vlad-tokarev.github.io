@@ -2,7 +2,7 @@
 title: "Claude Code Tips"
 date: 2025-11-30
 draft: false
-tags: ["AI", "Agents", "Claude Code"]
+tags: ["AI"]
 categories: ["Development"]
 summary: "Practical tips for working with Claude Code: managing context window and adapting your approach based on task complexity."
 ---
