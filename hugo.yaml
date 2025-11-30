@@ -38,10 +38,6 @@ languages:
           name: Search
           url: /search/
           weight: 30
-        - identifier: ru
-          name: "RU"
-          url: /ru/
-          weight: 100
   ru:
     languageCode: ru
     languageName: Русский
@@ -74,10 +70,6 @@ languages:
           name: Поиск
           url: /ru/search/
           weight: 30
-        - identifier: en
-          name: "EN"
-          url: /
-          weight: 100
 
 enableRobotsTXT: true
 buildDrafts: false
