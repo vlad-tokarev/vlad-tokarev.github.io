@@ -11,15 +11,13 @@ languages:
     languageName: English
     weight: 1
     params:
-      description: "Personal website and blog"
+      description: "Backend developer's blog about AI, Agents, Backend and Infrastructure"
       homeInfoParams:
-        Title: "Welcome"
-        Content: "Personal space for thoughts, projects and experiments."
+        Title: "Hey there!"
+        Content: "I'm a backend developer sharing my thoughts on AI, Agents, Backend and Infrastructure."
       socialIcons:
         - name: github
           url: "https://github.com/vlad-tokarev"
-        - name: telegram
-          url: "https://t.me/tokarev_vlad"
         - name: email
           url: "mailto:vlad.tokarev.94@gmail.com"
         - name: rss
@@ -43,10 +41,10 @@ languages:
     languageName: Русский
     weight: 2
     params:
-      description: "Персональный сайт и блог"
+      description: "Блог backend-разработчика об AI, агентах, бэкенде и инфраструктуре"
       homeInfoParams:
-        Title: "Добро пожаловать"
-        Content: "Личное пространство для мыслей, проектов и экспериментов."
+        Title: "Привет!"
+        Content: "Я backend-разработчик и здесь делюсь своими мыслями об AI, агентах, бэкенде и инфраструктуре."
       socialIcons:
         - name: github
           url: "https://github.com/vlad-tokarev"
@@ -86,8 +84,8 @@ services:
 
 params:
   env: production
-  description: "Personal website and blog"
-  keywords: [Blog, Portfolio]
+  description: "Backend developer's blog about AI, Agents, Backend and Infrastructure"
+  keywords: [Blog, AI, Agents, Backend, Infrastructure, Developer]
   author: vtok
 
   defaultTheme: auto
