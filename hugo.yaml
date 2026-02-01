@@ -90,6 +90,7 @@ params:
 
   defaultTheme: auto
   disableThemeToggle: false
+  disableLangToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: false
