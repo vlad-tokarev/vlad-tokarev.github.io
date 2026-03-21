@@ -15,6 +15,9 @@ Thumbs.db
 *.swp
 *.swo
 
+# Local data files (transcripts, downloads, etc.)
+data/
+
 # Temporary files
 *.log
 *.tmp
